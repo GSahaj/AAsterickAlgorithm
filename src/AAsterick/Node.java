@@ -7,12 +7,12 @@ class Node implements Comparable<Node>{
     double g, h;
     Node parent;
 
-    Node(int x, int y){
+    public Node(int x, int y){
         this.x = x;
         this.y = y;
     }
 
-    double f(){
+    public double f(){
         return g+h;
     }
 
